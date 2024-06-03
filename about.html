@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merc F1 Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images2/logo3.png" alt="logo"></a>   
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- ---------------------about us content-------------------------- -->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>Mercedes-AMG F1 Academy</h1>
+                <p>Our academy was build in 2004. And our current Team Principal is Toto Wolff. We've been making a dream come true.
+                    we make our students be the best driver in the world. </p>
+                    <a href="index.html" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images2/team.jpeg">
+            </div>
+        </div>
+        <div>
+
+
+
+        </div>
+    </section>
+
+<section class="about-toto">
+    <div class="Toto">
+        <h1>Our Current Team Pincipal</h1>
+        <p>Torger Christian "Toto" Wolff is an Austrian billionaire motorsport executive,
+           investor and former racing driver. He holds a 33% stake in the Mercedes-AMG Petronas F1 Team 
+           and is Team Principal and CEO of the team.
+            <br>Wolff began his motorsport career in the Austrian Formula Ford Championship 
+            and the German Formula Ford Series. He won his category in the 1994 24 Hours Nürburgring 
+            and later competed in the FIA GT Championship and Italian GT Championship. As an investor, 
+            Wolff founded Marchfifteen in 1998 and Marchsixteen Investments in 2004, initially focusing on Internet 
+            and technology companies. He specialises in strategic investments in medium-sized industrial 
+            and listed companies, which have included Williams F1 and German HWA AG.</p>
+        <a href="https://en.wikipedia.org/wiki/Toto_Wolff" class="hero-btn red-btn">GET TO KNOW HIM</a>
+    </div>
+    <div class="toto-col">
+        <img src="images2/toto.webp">
+    </div>
+</section>
+
+
+
+
+<!-- -------------------footer---------------- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Visit our official social media</p>
+    <div class="icons">
+        <a href="https://www.instagram.com/mercedesamgf1?igsh=MWQ1ZGUxMzBkMA=="><i class="fab fa-instagram"></i></a>
+        <a href="https://web.facebook.com/MercedesAMGF1?_rdc=1&_rdr"><i class="fab fa-facebook"></i></a>
+        <a href="https://x.com/MERCEDESAMGF1"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/@MercedesAMGF1"><i class="fab fa-youtube"></i></a>
+    </div>  
+    <p>Made With <i class="fa fa-regular fa-heart"></i> by Ayang Nova Anggraeni</p>  
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- -------JavaScript for Toggle Menu-------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }    
+    </script>
+
+</body>
+</html>
